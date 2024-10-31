@@ -61,8 +61,7 @@ function App() {
                 ))}
               </div>
             </section>
-          </div>
-          <div className="flex items-center justify-between mb-6">
+               <div className="flex items-center justify-between mb-6">
             <h2 className="text-3xl font-bold text-gray-900">Our Home Chefs</h2>
             <div className="flex items-center space-x-2">
               <ChefHat className="w-6 h-6 text-orange-500" />
@@ -75,7 +74,7 @@ function App() {
               <ChefCard key={chef.id} chef={chef} />
             ))}
           </div>
-
+          </div>
           <div className="md:w-1/3">
             <Cart
               items={cartItems}
